@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import HorizontalLoginForm from './HorizontalLoginForm';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <HorizontalLoginForm />
   </React.StrictMode>,
   document.getElementById('root')
 );
