@@ -27,6 +27,7 @@ const HorizontalLoginForm = () => {
       >
         <Input prefix={<UserOutlined className="site-form-item-icon" />} placeholder="Username" />
       </Form.Item>
+      <br/>
       <Form.Item
         name="password"
         rules={[
