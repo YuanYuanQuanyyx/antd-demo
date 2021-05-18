@@ -1,10 +1,17 @@
 import React from 'react';
-import { Button } from 'antd';
 import './App.css';
+import NormalLoginForm from './NormalLoginForm';
+
+const div1 = {
+  width: "300px",
+  margin: "30px auto",
+  minHeight: "200px",
+  boxSizing: "border-box"
+};
 
 const App = () => (
-  <div className="App">
-    <Button type="primary">Button</Button>
+  <div style = {div1}>
+    <NormalLoginForm/>
   </div>
 );
 
